@@ -19,13 +19,15 @@ ul {
 
   width: 94%;
 
+  z-index: 100;
+
   .Brand {
     color: black;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 400;
     opacity: 0;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .Navlink_Container {
@@ -52,9 +54,9 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .Nav {
-      .Brand {
-        opacity: 1;
-      }
+    .Brand {
+      opacity: 1;
+    }
     .Navlink_Container {
       .Navlink_Item {
         display: none;
