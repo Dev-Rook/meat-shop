@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.Nav {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 94%;
+}
+.Nav .Brand {
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0;
+  transition: 0.5s;
+}
+.Nav .Navlink_Container {
+  display: flex;
+  padding: 10px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav .Navlink_Container .Navlink {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.Nav .Navlink_Container .Menu_Icon {
+  color: black;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Nav .Brand {
+    opacity: 1;
+  }
+  .Nav .Navlink_Container .Navlink_Item {
+    display: none;
+  }
+  .Nav .Navlink_Container .Menu_Icon {
+    display: block;
+  }
+}/*# sourceMappingURL=Nav.module.css.map */

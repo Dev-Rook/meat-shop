@@ -1,0 +1,9 @@
+.Poultry {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 10px;
+  justify-content: left;
+  align-items: center;
+}/*# sourceMappingURL=Poultry.module.css.map */
