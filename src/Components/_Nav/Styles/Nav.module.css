@@ -7,11 +7,12 @@ ul {
 }
 
 .Nav {
+  background-color: white;
   display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -43,7 +44,7 @@ ul {
 }
 
 .Nav.active {
-  transform: translateY(100%);
+  transform: translateY(-100%);
 }
 
 @media only screen and (max-width: 768px) {
