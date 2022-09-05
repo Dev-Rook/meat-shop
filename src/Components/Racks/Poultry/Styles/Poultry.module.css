@@ -1,26 +1,42 @@
-.Swiper {
+.Container {
   border: 1px solid black;
   display: flex;
-  padding: 10px;
+  position: relative;
   margin: auto;
-  margin-right: 0px;
-  width: 80%;
+  margin-top: 100px;
+  width: 100%;
 }
-.Swiper .Slide {
-  border: 1px solid black;
-  padding: 5px;
+.Container .Title {
+  color: black;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+}
+.Container .Swiper {
   border: 1px solid black;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.Container .Swiper .Card {
+  border: 1px solid black;
+  display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
   padding: 5px;
-  gap: 20px;
   height: 400px;
   width: 300px;
 }
-.Swiper .Slide .Display_Image_Container {
+.Container .Swiper .Card .Display_Image_Container {
   border: 1px solid black;
   display: flex;
   position: absolute;
@@ -29,7 +45,7 @@
   width: 100%;
   height: 50%;
 }
-.Swiper .Slide .Display_Image_Container .Card_Title {
+.Container .Swiper .Card .Display_Image_Container .Card_Title {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -39,18 +55,39 @@
   font-weight: 400;
   z-index: 10;
 }
-.Swiper .Slide .Card_Details {
+.Container .Swiper .Card .Card_Details {
   border: 1px solid black;
   display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 50%;
 }
-.Swiper .Slide .Card_Details .Description {
+.Container .Swiper .Card .Card_Details .Description {
   color: black;
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 400;
-}/*# sourceMappingURL=Poultry.module.css.map */
+}
+.Container .Swiper .Card .Card_Details .Recipe__Button {
+  border: 1px solid black;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.Container .Swiper .Card .Card_Details .Recipe__Button .Order {
+  border: 2px solid black;
+  display: flex;
+  padding: 5px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+@me;/*# sourceMappingURL=Poultry.module.css.map */
