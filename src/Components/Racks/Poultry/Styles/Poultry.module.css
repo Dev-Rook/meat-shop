@@ -1,5 +1,4 @@
 .Container {
-  border: 1px solid black;
   display: flex;
   position: relative;
   margin: auto;
@@ -90,6 +89,14 @@
   font-size: 18px;
 }
 
+@media only screen and (max-width: 560px) {
+  .Container {
+    width: 100%;
+  }
+  .Container .Title {
+    display: none;
+  }
+}
 @media only screen and (max-width: 320px) {
   .Container .Swiper .Card {
     width: 280px;

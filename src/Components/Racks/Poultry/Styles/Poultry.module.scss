@@ -1,5 +1,4 @@
 .Container {
-  border: 1px solid black;
   display: flex;
 
   position: relative;
@@ -128,10 +127,14 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  
+@media only screen and (max-width: 560px) {
+  .Container {
+    width: 100%;
+    .Title {
+      display: none;
+    }
+  }
 }
-
 
 @media only screen and (max-width: 320px) {
   .Container {

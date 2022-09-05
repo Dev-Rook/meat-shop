@@ -6,22 +6,22 @@ import MenuIcon from "@mui/icons-material/Menu";
 // Material UI Icons End
 
 const Nav = () => {
-  const [brand, setBrand] = useState(false);
+  const [Nav, setNav] = useState(false);
 
 
-  const hideBrand = () => {
-    if(window.scrollY >= 100) {
-      setBrand(true);
+  const hideNav = () => {
+    if(window.scrollY >= 300) {
+      setNav(true);
     } else {
-      setBrand(false);
+      setNav(false);
     }
   }
 
-  window.addEventListener("scroll", hideBrand);
+  window.addEventListener("scroll", hideNav);
 
   return (
-    <div className={Styles.Nav}>
-      <h1 className={`${Styles.Brand} ${brand ? Styles.active : ""}`}>
+    <div className={`${Styles.Nav} ${Nav ? Styles.active : ""}`}>
+      <h1 className={`${Styles.Brand} ${Nav ? Styles.active : ""}`}>
         Meat Shop
       </h1>
 

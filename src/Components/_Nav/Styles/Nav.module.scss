@@ -20,6 +20,7 @@ ul {
   width: 100%;
 
   z-index: 100;
+  transition: .5s;
 
   .Brand {
     color: black;
@@ -48,6 +49,10 @@ ul {
       display: none;
     }
   }
+}
+
+.Nav.active {
+  transform: translateY(100%);
 }
 
 @media only screen and (max-width: 768px) {
