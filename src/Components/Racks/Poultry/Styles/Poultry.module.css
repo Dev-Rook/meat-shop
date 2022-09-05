@@ -1,9 +1,11 @@
 .Container {
+  border: 1px solid black;
   display: flex;
   position: relative;
   margin: auto;
   margin-top: 100px;
-  width: 100%;
+  margin-right: 0px;
+  width: 80%;
 }
 .Container .Title {
   color: black;

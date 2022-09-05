@@ -19,9 +19,10 @@ const Poultry = () => {
   const [productData, setProductData] = useState(Chicken);
   const [searchProduct, setSearchProduct] = useState("");
 
+
   return (
     <div className={Styles.Container}>
-      {/* <h1 className={Styles.Title}>Chicken</h1> */}
+      <h1 className={Styles.Title}>Chicken</h1>
       <Swiper
         speed={800}
         modules={[Navigation, FreeMode]}
