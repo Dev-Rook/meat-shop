@@ -2,7 +2,6 @@
   display: flex;
   position: relative;
   margin: auto;
-  margin-top: 100px;
   margin-right: 0px;
   width: 80%;
 }
@@ -12,6 +11,7 @@
   font-size: 50px;
   font-weight: 400;
   font-style: italic;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
   position: absolute;
   top: 0;
   bottom: 0;

@@ -1,11 +1,23 @@
 .Landing {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   position: relative;
   justify-content: space-evenly;
   align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.Landing .Content_Container {
+  display: flex;
+  flex-direction: column;
   padding: 5px;
+  gap: 30px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
   height: 100%;
   width: 100%;
 }/*# sourceMappingURL=Landing.module.css.map */

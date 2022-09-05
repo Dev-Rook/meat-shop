@@ -9,7 +9,7 @@ import Landing from './Views/_Landing/Landing';
 function App() {
   return (
     <div className="App">
-      {/* <Sidebar /> */}
+      <Sidebar />
       <Nav />
 
       
