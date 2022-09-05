@@ -32,7 +32,7 @@ const Poultry = () => {
           360: {
             width: 360,
             slidesPerView: 1,
-            spaceBetween: 50,
+            spaceBetween: 10,
           },
           380: {
             width: 380,

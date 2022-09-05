@@ -1,5 +1,4 @@
 .Container {
-  border: 1px solid black;
   display: flex;
   position: relative;
   margin: auto;
@@ -18,7 +17,6 @@
   transform: rotate(-90deg);
 }
 .Container .Swiper {
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,4 +88,9 @@
   font-size: 18px;
 }
 
-@me;/*# sourceMappingURL=Poultry.module.css.map */
+@media only screen and (max-width: 320px) {
+  .Container .Swiper .Card {
+    width: 280px;
+    height: 350px;
+  }
+}/*# sourceMappingURL=Poultry.module.css.map */
