@@ -1,0 +1,88 @@
+const BeefData = [
+    {
+        id: 1,
+        Image: "",
+        Title: "Chuck",
+        Description: "One whole chicken. Defeathered and packaged",
+        Category: "Whole Ckicken",
+    },
+    {
+        id: 2,
+        Image: "",
+        Title: "Rib",
+        Description: "",
+        Category: "Whole Ckicken",
+    },
+    {
+        id: 3,
+        Image: "",
+        Title: "Short Loin",
+        Description: "",
+        Category: "Whole Ckicken",
+    },
+    {
+        id: 4,
+        Image: "",
+        Title: "Sirloin",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 5,
+        Image: "",
+        Title: "Tenderloin",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 6,
+        Image: "",
+        Title: "Top Sirloin",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 7,
+        Image: "",
+        Title: "Bottom Sirloin",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 8,
+        Image: "",
+        Title: "Round",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 9,
+        Image: "",
+        Title: "Brisket",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 10,
+        Image: "",
+        Title: "Plate",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 11,
+        Image: "",
+        Title: "Flank",
+        Description: "",
+        Category: "Part",
+    },
+    {
+        id: 12,
+        Image: "",
+        Title: "Shank",
+        Description: "",
+        Category: "Part",
+    },
+]
+
+export default BeefData

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Styles from "./Styles/Poultry.module.css";
+import Styles from "./_Rack-Styles/RackStyle.module.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,16 +13,23 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 // import "swiper/css/effect-fade ";
 
-import Chicken from "../../Cards/Chicken";
+import BeefData from "../Cards/BeefData";
 
-const Poultry = () => {
-  const [productData, setProductData] = useState(Chicken);
+const Beef = () => {
+  const [productData, setProductData] = useState(BeefData);
   const [searchProduct, setSearchProduct] = useState("");
-
 
   return (
     <div className={Styles.Container}>
-      {/* <h1 className={Styles.Title}>Chicken</h1> */}
+      <h1 className={Styles.Title}>Beef</h1>
+      <div className={Styles.Filter_Container}>
+        <input
+          type="text"
+          placeholder="Search"
+          onChange={(e) => setSearchProduct(e.target.value)}
+          className={Styles.Filter}
+        />
+      </div>
       <Swiper
         speed={800}
         modules={[Navigation, FreeMode]}
@@ -102,4 +109,4 @@ const Poultry = () => {
   );
 };
 
-export default Poultry;
+export default Beef;
