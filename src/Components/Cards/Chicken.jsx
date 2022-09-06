@@ -2,7 +2,7 @@ const Chicken = [
     {
         id: 1,
         Image: "",
-        Title: "1 Chicken",
+        Title: "Leg",
         Description: "One whole chicken. Defeathered and packaged",
         Category: "",
         Price: "$00.00",
@@ -10,7 +10,7 @@ const Chicken = [
     {
         id: 2,
         Image: "",
-        Title: "Cut-Up",
+        Title: "CBreast",
         Description: "",
         Category: "",
         Price: "$00.00",
@@ -18,7 +18,7 @@ const Chicken = [
     {
         id: 3,
         Image: "",
-        Title: "Minced",
+        Title: "Wing",
         Description: "",
         Category: "",
         Price: "$00.00",
@@ -26,7 +26,7 @@ const Chicken = [
     {
         id: 4,
         Image: "",
-        Title: "Legs",
+        Title: "Thigh",
         Description: "",
         Category: "",
         Price: "$00.00",
@@ -34,7 +34,7 @@ const Chicken = [
     {
         id: 5,
         Image: "",
-        Title: "Wings",
+        Title: "Drumstick",
         Description: "",
         Category: "",
         Price: "$00.00",
@@ -42,7 +42,15 @@ const Chicken = [
     {
         id: 6,
         Image: "",
-        Title: "Thighs",
+        Title: "Back",
+        Description: "",
+        Category: "",
+        Price: "$00.00",
+    },
+    {
+        id: 7,
+        Image: "",
+        Title: "Foot",
         Description: "",
         Category: "",
         Price: "$00.00",

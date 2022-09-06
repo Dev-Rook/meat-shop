@@ -33,22 +33,22 @@ const Nav = () => {
           </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <Link to={"Chicken"} className={Styles.Navlink}>
+          <Link to={"PoultryPage"} className={Styles.Navlink}>
             Chicken
           </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <Link to={"Beef"} className={Styles.Navlink}>
+          <Link to={"BeefPage"} className={Styles.Navlink}>
             Beef
           </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <Link to={"Pork"} className={Styles.Navlink}>
+          <Link to={"PorkPage"} className={Styles.Navlink}>
             Pork
           </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <Link to={"Mutton"} className={Styles.Navlink}>
+          <Link to={"MuttonPage"} className={Styles.Navlink}>
             Mutton
           </Link>
         </li>
