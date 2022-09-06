@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <div className={Styles.Sidebar}>
       <div className={Styles.Logo_Container}>
-        <img src="" alt="" className={Styles.Logo} />
+        <img src={require("../../Assets/Images/Logo.jpg")} alt="" className={Styles.Logo} />
       </div>
 
       <ul className={Styles.Social_Icon_Container}>
