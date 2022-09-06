@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Pork from '../../Components/Racks/Pork'
+
 const PorkPage = () => {
   return (
-    <div>PorkPage</div>
+    <div>
+      <Pork />
+    </div>
   )
 }
 

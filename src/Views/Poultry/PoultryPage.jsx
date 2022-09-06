@@ -6,7 +6,9 @@ import Poultry from "../../Components/Racks/Poultry";
 const PoultryPage = () => {
   return (
     <div className={Styles.PoultryPage}>
-      <Poultry />
+      <div className={Styles.Content_Container}>
+        <Poultry />
+      </div>
     </div>
   );
 };

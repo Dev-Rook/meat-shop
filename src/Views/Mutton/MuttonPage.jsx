@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Mutton from '../../Components/Racks/Mutton'
+
 const MuttonPage = () => {
   return (
-    <div>MuttonPage</div>
+    <div>
+      <Mutton />
+    </div>
   )
 }
 
