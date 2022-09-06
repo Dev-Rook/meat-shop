@@ -22,14 +22,14 @@ const Poultry = () => {
   return (
     <div className={Styles.Container}>
       <h1 className={Styles.Title}>Chicken</h1>
-      <div className={Styles.Filter_Container}>
+      {/* <div className={Styles.Filter_Container}>
         <input
           type="text"
           placeholder="Search"
           onChange={(e) => setSearchProduct(e.target.value)}
           className={Styles.Filter}
         />
-      </div>
+      </div> */}
       <Swiper
         speed={800}
         modules={[Navigation, FreeMode]}
@@ -57,11 +57,11 @@ const Poultry = () => {
             slidesPerView: 2,
             spaceBetween: 10,
           },
-          1500: {
-            width: 1500,
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
+          // 1500: {
+          //   width: 1500,
+          //   slidesPerView: 3,
+          //   spaceBetween: 10,
+          // },
           1920: {
             width: 1920,
             slidesPerView: 4,

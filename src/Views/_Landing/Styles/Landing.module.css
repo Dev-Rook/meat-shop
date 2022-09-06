@@ -1,7 +1,6 @@
 .Landing {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, rgb(208, 164, 124) 0%, rgb(230, 207, 186) 20%, rgb(129, 129, 129) 100%);
   position: relative;
   justify-content: space-evenly;
   align-items: center;
