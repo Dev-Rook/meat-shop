@@ -4,6 +4,7 @@ import Styles from "./Styles/Landing.module.css";
 import Poultry from "../../Components/Racks/Poultry";
 import Beef from "../../Components/Racks/Beef";
 import Pork from "../../Components/Racks/Pork";
+import Mutton from "../../Components/Racks/Mutton";
 
 const Landing = () => {
   return (
@@ -12,6 +13,7 @@ const Landing = () => {
         <Poultry />
         <Beef />
         <Pork />
+        <Mutton />
       </div>
     </div>
   );
