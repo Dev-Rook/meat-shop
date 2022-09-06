@@ -10,7 +10,7 @@ const Nav = () => {
 
 
   const hideNav = () => {
-    if(window.scrollY >= 300) {
+    if(window.scrollY >= 145) {
       setNav(true);
     } else {
       setNav(false);
