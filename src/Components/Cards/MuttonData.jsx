@@ -5,6 +5,7 @@ const MuttonData = [
     Title: "Diced Leg",
     Description: "Lean cuts from the leg, diced by hand.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const MuttonData = [
     Title: "Diced Mutton Shoulder",
     Description: "Marbled cuts from the shoulder, diced by hand",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const MuttonData = [
     Title: "Ground Mutton",
     Description: "Made from leaner shoulder cuts, gristle removed.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const MuttonData = [
     Title: "Mutton Breast",
     Description: "The whole breast of mutton, on the bone.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ const MuttonData = [
     Title: "Mottun Chops",
     Description: "A versatile cut taken from the mutton loin.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ const MuttonData = [
     Title: "Motton Leg",
     Description: "The most popular mutton roasting joint.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ const MuttonData = [
     Title: "Mutton Loin",
     Description: "Bone-in sirloin and fillet of mutton.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ const MuttonData = [
     Title: "Mutton Scrag",
     Description: "Mutton neck, on the bone.",
     Category: "",
+    Price: "$00.00",
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ const MuttonData = [
     Title: "Mutton Shoulder",
     Description: "A fantastic, flavoursome joint for roasting.",
     Category: "",
+    Price: "$00.00",
   },
 ];
 

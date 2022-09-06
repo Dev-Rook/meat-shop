@@ -1,22 +1,25 @@
-import React, {useState, useEffect} from 'react'
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
+import "./App.css";
 
-import Sidebar from './Components/_Sidebar/Sidebar';
-import Nav from './Components/_Nav/Nav';
+import Sidebar from "./Components/_Sidebar/Sidebar";
+import Nav from "./Components/_Nav/Nav";
 
-import Landing from './Views/_Landing/Landing';
+import Landing from "./Views/_Landing/Landing";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <Nav />
+      <BrowserRouter>
+        <Sidebar />
+        <Nav />
 
-      
-      <Landing />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
- 

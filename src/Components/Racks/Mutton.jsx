@@ -78,7 +78,7 @@ const Mutton = () => {
                 : data.Title.toLocaleLowerCase().includes(searchProduct);
             })
             .map((product) => {
-              const { id, Title, Image, Description, Category } = product;
+              const { id, Title, Image, Description, Category, Price } = product;
 
               return (
                 <SwiperSlide className={Styles.Slide}>
@@ -96,8 +96,8 @@ const Mutton = () => {
                       <p className={Styles.Description}>{Description}</p>
 
                       <div className={Styles.Recipe__Button}>
-                        <a href="#" className={Styles.RecipeLink}>
-                          Recipe
+                      <a href="#" className={Styles.Price}>
+                          {Price}
                         </a>
 
                         <button className={Styles.Order}>Order</button>

@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+  border: none;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #1d1d1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fbf0d6;
+  /* border-radius: 10px; */
+}
+
 .App {
   position: relative;
   height: 100%;

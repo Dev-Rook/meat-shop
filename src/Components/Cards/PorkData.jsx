@@ -5,6 +5,7 @@ const PorkData = [
         Title: "Becon",
         Description: "One whole chicken. Defeathered and packaged",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ const PorkData = [
         Title: "Ground Pork",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ const PorkData = [
         Title: "Ham",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ const PorkData = [
         Title: "Pork Belly",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ const PorkData = [
         Title: "Pork Chops",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 6,
@@ -40,6 +45,7 @@ const PorkData = [
         Title: "Pork Loin Roast",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 7,
@@ -47,6 +53,7 @@ const PorkData = [
         Title: "Pork Rib Roast",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 8,
@@ -54,6 +61,7 @@ const PorkData = [
         Title: "Pork Ribs",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 9,
@@ -61,6 +69,7 @@ const PorkData = [
         Title: "Pork Shoulder",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 10,
@@ -68,6 +77,7 @@ const PorkData = [
         Title: "Pork Steak",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 11,
@@ -75,6 +85,7 @@ const PorkData = [
         Title: "Pork Tenderloin",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
     {
         id: 12,
@@ -82,6 +93,7 @@ const PorkData = [
         Title: "Sausage",
         Description: "",
         Category: "",
+        Price: "$00.00",
     },
 ]
 
