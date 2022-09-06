@@ -9,6 +9,17 @@ import Mutton from "../../Components/Racks/Mutton";
 const Landing = () => {
   return (
     <div className={Styles.Landing}>
+      <iframe
+      className={Styles.Location_Map_Iframe}
+        width="90%"
+        height="500"
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?q=hopewell&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
       <div className={Styles.Content_Container}>
         <Poultry />
         <Beef />
