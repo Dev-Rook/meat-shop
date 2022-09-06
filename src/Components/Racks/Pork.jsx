@@ -22,14 +22,14 @@ const Pork = () => {
   return (
     <div className={Styles.Container}>
       <h1 className={Styles.Title}>Pork</h1>
-      <div className={Styles.Filter_Container}>
+      {/* <div className={Styles.Filter_Container}>
         <input
           type="text"
           placeholder="Search"
           onChange={(e) => setSearchProduct(e.target.value)}
           className={Styles.Filter}
         />
-      </div>
+      </div> */}
       <Swiper
         speed={800}
         modules={[Navigation, FreeMode]}
