@@ -5,13 +5,15 @@
 
   margin: auto;
   margin-right: 0px;
-  width: 80%;
+  width: 90%;
+
+  transition: .5s;
 
   .Title {
     color: black;
     font-family: sans-serif;
     font-size: 50px;
-    font-weight: 400;
+    // font-weight: 400;
     font-style: italic;
     text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 
@@ -127,7 +129,7 @@
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 996px) {
   .Container {
     width: 100%;
     .Title {
