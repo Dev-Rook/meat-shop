@@ -85,7 +85,7 @@ const Poultry = () => {
                   <div className={Styles.Card} key={id}>
                     <div className={Styles.Display_Image_Container}>
                       <h3 className={Styles.Card_Title}>{Title}</h3>
-                      <img src="" alt="" className={Styles.Display_image} />
+                      <img src={Image} alt="" className={Styles.Display_image} />
                     </div>
 
                     <div className={Styles.Card_Details}>

@@ -13,15 +13,15 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 // import "swiper/css/effect-fade ";
 
-import BeefData from "../Cards/BeefData";
+import PorkData from "../Cards/PorkData";
 
-const Beef = () => {
-  const [productData, setProductData] = useState(BeefData);
+const Pork = () => {
+  const [productData, setProductData] = useState(PorkData);
   const [searchProduct, setSearchProduct] = useState("");
 
   return (
     <div className={Styles.Container}>
-      <h1 className={Styles.Title}>Beef</h1>
+      <h1 className={Styles.Title}>Pork</h1>
       <div className={Styles.Filter_Container}>
         <input
           type="text"
@@ -109,4 +109,4 @@ const Beef = () => {
   );
 };
 
-export default Beef;
+export default Pork;
