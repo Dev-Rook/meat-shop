@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Styles from "./Styles/Nav.module.css";
 
 // Material UI Icons Start
@@ -27,29 +28,29 @@ const Nav = () => {
 
       <ul className={Styles.Navlink_Container}>
         <li className={Styles.Navlink_Item}>
-          <a href="" className={Styles.Navlink}>
+          <Link to={"/"} className={Styles.Navlink}>
             Home
-          </a>
+          </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <a href="" className={Styles.Navlink}>
+          <Link to={"Chicken"} className={Styles.Navlink}>
             Chicken
-          </a>
+          </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <a href="" className={Styles.Navlink}>
+          <Link to={"Beef"} className={Styles.Navlink}>
             Beef
-          </a>
+          </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <a href="" className={Styles.Navlink}>
+          <Link to={"Pork"} className={Styles.Navlink}>
             Pork
-          </a>
+          </Link>
         </li>
         <li className={Styles.Navlink_Item}>
-          <a href="" className={Styles.Navlink}>
+          <Link to={"Mutton"} className={Styles.Navlink}>
             Mutton
-          </a>
+          </Link>
         </li>
 
         <MenuIcon sx={{fontSize: 40}} className={Styles.Menu_Icon} />

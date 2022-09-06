@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Styles from "./_Rack-Styles/RackStyle.module.css";
 
 // Import Swiper React components
@@ -82,6 +83,9 @@ const Poultry = () => {
 
               return (
                 <SwiperSlide className={Styles.Slide}>
+                  <Link to={`/Product/Data`}>
+                    
+                  </Link>
                   <div className={Styles.Card} key={id}>
                     <div className={Styles.Display_Image_Container}>
                       <h3 className={Styles.Card_Title}>{Title}</h3>

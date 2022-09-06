@@ -6,6 +6,8 @@ import Sidebar from "./Components/_Sidebar/Sidebar";
 import Nav from "./Components/_Nav/Nav";
 
 import Landing from "./Views/_Landing/Landing";
+import Products from "./Components/Products/Products";
+import ProductDetails from "./Components/Products/ProductDetails";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Landing />} />
+
+          <Route path="Products" element={<Products />} />
+          <Route path="Products/:ProductId" element={<ProductDetails />} />
         </Routes>
       </BrowserRouter>
     </div>
