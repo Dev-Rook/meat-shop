@@ -39,9 +39,9 @@
 
   transition: 1s;
 
-  transform: rotate(90deg) translateX(100vh);
+  transform:  translateX(100vh);
 }
 
 .Show-back-To-Top-Button {
-  transform: rotate(-90deg)  translateX(0%);
+  transform: translateX(0%);
 }
