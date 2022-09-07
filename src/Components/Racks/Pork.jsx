@@ -57,11 +57,11 @@ const Pork = () => {
             slidesPerView: 2,
             spaceBetween: 10,
           },
-          1500: {
-            width: 1500,
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
+          // 1500: {
+          //   width: 1500,
+          //   slidesPerView: 3,
+          //   spaceBetween: 10,
+          // },
           1920: {
             width: 1920,
             slidesPerView: 4,
