@@ -21,7 +21,7 @@ ul {
   width: 90%;
 
   z-index: 100;
-  transition: .5s;
+  transition: 0.5s;
 
   .Brand {
     color: black;
@@ -50,6 +50,178 @@ ul {
       color: black;
       display: none;
     }
+  }
+
+  .Mobile__Menu {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    gap: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    height: 100vh;
+    width: 500px;
+
+    overflow-y: scroll;
+
+    z-index: 100;
+    transition: 0.5s;
+    transform: translateX(100%);
+
+    .CloseIcon {
+      color: red;
+      font-size: 40px;
+      text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+      z-index: 10;
+    }
+
+    .MerchIcon {
+      color: #dda785;
+      font-size: 35px;
+      text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .Mobile_Brand {
+      color: white;
+      font-family: sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+
+      position: absolute;
+      top: 25px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+
+      justify-content: center;
+      align-items: center;
+
+      display: flex;
+      width: 100%;
+    }
+
+    .MobileLinks_Container {
+      display: flex;
+      flex-direction: column;
+
+      padding: 10px;
+      gap: 20px;
+
+      justify-content: center;
+      align-items: center;
+
+      margin: auto;
+
+      width: 100%;
+
+      .MobileLink_Item {
+        display: flex;
+
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        .MobileLink {
+          color: white;
+          font-family: sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+
+      .Mobile_Search_Container {
+        display: flex;
+
+        padding: 10px;
+        gap: 20px;
+
+        justify-content: space-evenly;
+        align-items: center;
+
+        margin: auto;
+        margin-top: 40px;
+
+        .SearchIcon {
+          color: white;
+          font-size: 20px;
+        }
+
+        .Search {
+          box-shadow: rgba(255, 0, 0, 0.4) 0px 2px 4px,
+            rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+            rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          background-color: rgba(0, 0, 0, 0.5);
+          outline: none;
+          border: none;
+
+          padding: 10px;
+
+          color: white;
+          font-size: 18px;
+          font-family: sans-serif;
+          font-weight: 400;
+        }
+
+        ::placeholder {
+          font-size: 18px;
+          font-family: sans-serif;
+          font-weight: 400;
+        }
+      }
+
+      .Social_Icon_Bar {
+        display: flex;
+        padding: 5px;
+        gap: 20px;
+
+        justify-content: space-evenly;
+        align-items: center;
+
+        .Social_Icon {
+          border: 2px solid black;
+          border-radius: 50%;
+          background-color: rgba(0, 0, 0, 0.5);
+
+          height: 30px;
+          width: 30px;
+          display: flex;
+
+          .SocialIcon {
+            margin: auto;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+  .ToggleMenu {
+    transform: translateX(0%);
   }
 }
 
