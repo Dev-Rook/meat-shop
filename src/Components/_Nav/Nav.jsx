@@ -66,6 +66,11 @@ const Nav = () => {
             Mutton
           </Link>
         </li>
+        <li className={Styles.Navlink_Item}>
+          <Link to={"Contact"} className={Styles.Navlink}>
+            Contact
+          </Link>
+        </li>
 
         <MenuIcon sx={{fontSize: 40}} onClick={toggleSB} className={Styles.Menu_Icon} />
       </ul>
@@ -81,7 +86,7 @@ const Nav = () => {
         <CloseIcon className={Styles.CloseIcon} onClick={toggleSB} />
         <LocalMallIcon className={Styles.MerchIcon} />
 
-        <h1 className={Styles.Mobile_Brand}>Marina Palms</h1>
+        <h1 className={Styles.Mobile_Brand}>Meat Shop</h1>
 
         <ul className={Styles.MobileLinks_Container}>
           <li className={Styles.MobileLink_Item}>
@@ -91,17 +96,22 @@ const Nav = () => {
           </li>
           <li className={Styles.MobileLink_Item}>
             <a href="#" className={Styles.MobileLink}>
-              Visit
+              Chicken
             </a>
           </li>
           <li className={Styles.MobileLink_Item}>
             <a href="#" className={Styles.MobileLink}>
-              Sailing
+              Beef
             </a>
           </li>
           <li className={Styles.MobileLink_Item}>
             <a href="#" className={Styles.MobileLink}>
-              Fishing
+              Pork
+            </a>
+          </li>
+          <li className={Styles.MobileLink_Item}>
+            <a href="#" className={Styles.MobileLink}>
+              Mutton
             </a>
           </li>
           <li className={Styles.MobileLink_Item}>
