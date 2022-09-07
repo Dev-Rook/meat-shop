@@ -13,7 +13,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 // Material UI Icons End
 
 const Nav = () => {
-  const [Nav, setNav] = useState(false);
+  // const [Nav, setNav] = useState(false);
   const [toogleSideBar, setToogleSideBar] = useState(false);
 
   const toggleSB = () => {
@@ -21,18 +21,21 @@ const Nav = () => {
   };
 
 
-  const hideNav = () => {
-    if(window.scrollY >= 145) {
-      setNav(true);
-    } else {
-      setNav(false);
-    }
-  }
+  // const hideNav = () => {
+  //   if(window.scrollY >= 145) {
+  //     setNav(true);
+  //   } else {
+  //     setNav(false);
+  //   }
+  // }
 
-  window.addEventListener("scroll", hideNav);
+  // window.addEventListener("scroll", hideNav);
+
+
+  // {`${Styles.Nav} ${Nav ? Styles.active : ""}`}
 
   return (
-    <div className={`${Styles.Nav} ${Nav ? Styles.active : ""}`}>
+    <div className={Styles.Nav}>
       <h1 className={`${Styles.Brand} ${Nav ? Styles.active : ""}`}>
         Meat Shop
       </h1>

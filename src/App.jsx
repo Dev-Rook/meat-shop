@@ -49,17 +49,15 @@ function App() {
           {/* <Route path="Products" element={<Products />} />
           <Route path="Products/:ProductId" element={<ProductDetails />} /> */}
         </Routes>
+        <img
+          onClick={scrollUp}
+          src={require("./Assets/Icons/Scroll-Up.png")}
+          alt=""
+          className={
+            backToTop ? "Back-To-Top Show-back-To-Top-Button" : "Back-To-Top"
+          }
+        />
       </BrowserRouter>
-
-
-      <img
-        onClick={scrollUp}
-        src={require("./Assets/Icons/Scroll-Up.png")}
-        alt=""
-        className={
-          backToTop ? "Back-To-Top Show-back-To-Top-Button" : "Back-To-Top"
-        }
-      />
     </div>
   );
 }
