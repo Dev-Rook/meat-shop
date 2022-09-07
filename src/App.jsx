@@ -14,9 +14,25 @@ import BeefPage from "./Views/Beef/BeefPage";
 import MuttonPage from "./Views/Mutton/MuttonPage";
 import PorkPage from "./Views/Pork/PorkPage";
 
-
-
 function App() {
+  const [backToTop, setBackToTop] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setBackToTop(true);
+      } else {
+        setBackToTop(false);
+      }
+    });
+  }, []);
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="App">
       <BrowserRouter>
@@ -30,11 +46,20 @@ function App() {
           <Route path="PorkPage" element={<PorkPage />} />
           <Route path="MuttonPage" element={<MuttonPage />} />
 
-
           {/* <Route path="Products" element={<Products />} />
           <Route path="Products/:ProductId" element={<ProductDetails />} /> */}
         </Routes>
       </BrowserRouter>
+
+
+      <img
+        onClick={scrollUp}
+        src={require("./Assets/Icons/Scroll-Up.png")}
+        alt=""
+        className={
+          backToTop ? "Back-To-Top Show-back-To-Top-Button" : "Back-To-Top"
+        }
+      />
     </div>
   );
 }
