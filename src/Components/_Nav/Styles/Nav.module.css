@@ -74,7 +74,7 @@ ul {
   color: #dda785;
   font-size: 35px;
   text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
 }
@@ -198,5 +198,27 @@ ul {
   }
   .Nav .Navlink_Container .Menu_Icon {
     display: block;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Nav .Mobile__Menu {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .Nav .Mobile__Menu .CloseIcon {
+    right: 10px;
+  }
+  .Nav .Mobile__Menu .MerchIcon {
+    left: 10px;
+  }
+  .Nav .Mobile__Menu .MobileLinks_Container {
+    margin-top: 230px;
+  }
+  .Nav .Mobile__Menu .MobileLinks_Container .Mobile_Search_Container {
+    width: 100%;
+  }
+  .Nav .Mobile__Menu .MobileLinks_Container .Mobile_Search_Container .Search {
+    width: 100%;
   }
 }/*# sourceMappingURL=Nav.module.css.map */
