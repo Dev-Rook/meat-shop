@@ -79,31 +79,35 @@ const Poultry = () => {
                 : data.Title.toLocaleLowerCase().includes(searchProduct);
             })
             .map((product) => {
-              const { id, Title, Image, Description, Category, Price } = product;
+              const { id, Title, Image, Description, Category, Price } =
+                product;
 
               return (
                 <SwiperSlide className={Styles.Slide}>
-                  <Link to={`/Product/Data`}>
-                    
-                  </Link>
-                  <div className={Styles.Card} key={id}>
-                    <div className={Styles.Display_Image_Container}>
-                      <h3 className={Styles.Card_Title}>{Title}</h3>
-                      <img src={Image} alt="" className={Styles.Display_image} />
-                    </div>
+                  <Link to={`Products/:ProductId`}>
+                    <div className={Styles.Card} key={id}>
+                      <div className={Styles.Display_Image_Container}>
+                        <h3 className={Styles.Card_Title}>{Title}</h3>
+                        <img
+                          src={Image}
+                          alt=""
+                          className={Styles.Display_image}
+                        />
+                      </div>
 
-                    <div className={Styles.Card_Details}>
-                      <p className={Styles.Description}>{Description}</p>
+                      <div className={Styles.Card_Details}>
+                        <p className={Styles.Description}>{Description}</p>
 
-                      <div className={Styles.Recipe__Button}>
-                      <a href="#" className={Styles.Price}>
-                          {Price}
-                        </a>
+                        <div className={Styles.Recipe__Button}>
+                          <a href="#" className={Styles.Price}>
+                            {Price}
+                          </a>
 
-                        <button className={Styles.Order}>Order</button>
+                          <button className={Styles.Order}>Order</button>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </SwiperSlide>
               );
             })}
